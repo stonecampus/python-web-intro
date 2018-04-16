@@ -1,0 +1,11 @@
+單元: {{title}}
+
+  * start 後打開 hello.html 觀察 HTML 的結構
+  * 試著用系統瀏覽器打開 hello.html
+  * 用 uvw . open 來打開瀏覽器
+  * 用 uvw . live 來打開瀏覽器，並直接更改 hello.html
+
+---
+$ uvw . start   -- 開始
+$ uvw . open    -- 打開瀏覽器
+$ uvw . live    -- 打開瀏覽器，檔案更改時自動更新

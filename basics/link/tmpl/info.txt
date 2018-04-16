@@ -1,0 +1,8 @@
+單元: {{title}}
+
+  * start 後打開 link.html 及 back.html 觀察 HTML 的結構
+  * 用 uvw . open 來打開瀏覽器
+
+---
+$ uvw . start   -- 開始
+$ uvw . open    -- 打開瀏覽器

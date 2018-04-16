@@ -1,0 +1,22 @@
+單元: {{title}}
+
+可以參考
+
+  1. MDN 的 Web 入門
+   - https://developer.mozilla.org/zh-TW/docs/Learn/Getting_started_with_the_web
+
+{% if units.length -%}
+子單元:
+{% for u in units %}
+  [{{u.name}}] {{u.title}} {% if u.ready %}(已打開){% endif %}
+{%- endfor %}{% endif %}
+
+{% if relPath -%}
+現在目錄：{{curDir}}
+期望目錄：{{baseDir}}
+請到目錄：cd {{relPath}}
+{%- else -%}
+---
+$ cd [name]    -- 進入單元 [name]
+$ mkdir [name] -- 打開單元 [name]
+{%- endif -%}

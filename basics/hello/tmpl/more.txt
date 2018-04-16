@@ -1,0 +1,24 @@
+
+HTML 到底是什麼？
+
+  HTML 是一種標記語言（markup language），而非一般熟知的程式設計語言
+  - 告訴瀏覽器該如何呈現你的網頁
+
+
+看一個簡單 HTML 例子: hello.html
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Hello, Title Here</title>
+      <meta charset="utf-8">
+    </head>
+    <body>
+      <h1>Hello, There</h1>
+
+      <p>This is my first HTML file</p>
+
+      <p>This is the second <em>paragraph</em>...</p>
+    </body>
+  </html>
+

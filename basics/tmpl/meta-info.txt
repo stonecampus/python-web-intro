@@ -1,0 +1,6 @@
+Meta Unit: {{title}}
+
+Sub Units:
+{% for u in units %}
+  [{{u.name}}] {{u.title}}
+{%- endfor %}

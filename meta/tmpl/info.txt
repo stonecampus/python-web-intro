@@ -1,0 +1,9 @@
+Course: {{title}}
+
+Units:
+{% for u in units %}
+  [{{u.name}}] {{u.title}} {% if u.ready %}(opened){% endif %}
+{%- endfor %}
+
+'$ cd [name]' for unit [name]
+'$ uvw . open [name]' to start unit [name]

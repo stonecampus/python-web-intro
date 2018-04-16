@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Interactive Page</h1>
+
+    <p>Click the button below, and nothing happens</p>
+
+    <button onclick="sayHello();">Say Hello</button>
+    <button onclick="printRandom();">Print Random Number</button>
+    <script>
+      function sayHello() {
+        alert('Hello, World!');
+      }
+
+      var count = 0;
+      function printRandom() {
+        count++;
+        console.log('Random: ', count, Math.random());
+      }
+    </script>
+  </body>
+</html>

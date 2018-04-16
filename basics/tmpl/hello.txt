@@ -1,0 +1,14 @@
+Unit: {{title}}
+
+Unit 1: Hello
+
+  1. run 'uvw . hello'
+  2. open 'hello.html'
+    - on Mac: 'open hello.html'
+    - on Windows: use 檔案總管
+
+{% if relPath -%}
+現在目錄：{{curDir}}
+期望目錄：{{baseDir}}
+請到目錄：cd {{relPath}}
+{%- endif -%}

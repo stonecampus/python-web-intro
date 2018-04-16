@@ -55,5 +55,12 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+.env*
+
+# Misc
+dist
+*.swp
+*~
+Thumbs.db
+.vscode
 

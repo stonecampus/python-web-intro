@@ -1,0 +1,6 @@
+Meta Course: {{title}}
+
+Units:
+{% for u in units %}
+  [{{u.name}}] {{u.title}}
+{%- endfor %}

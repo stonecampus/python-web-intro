@@ -1,0 +1,16 @@
+單元: {{title}}
+
+  * start 後觀察加入的 HTML 檔案
+  * 在終端機執行 python3 或 python 確認 Python 3 已安裝
+  * 在終端機執行 python3 -m http.server 簡易 Web 伺服器
+  * 並開啟瀏覽器指到適當 URL (例如 http://localhost:8000)
+  * Ctrl-C 停止伺服器運作
+  * next 後再觀察新加入的 index.html 檔案
+  * 執行 python3 -m http.server, 並觀察不同
+  * 可再刪除 index.html 重試
+
+---
+$ uvw . start           -- 開始
+$ http3 -m http.server  -- 開啟 python 簡易 Web 伺服器
+$ uvw . next            -- 加入 index.html
+$ uvw . serve           -- 打開另一種軟體開發用 Web 伺服器
